@@ -1,0 +1,40 @@
+.accordion {
+    align-items: center;
+    border-bottom: solid hsl(240, 5%, 91%) 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.accordion img {
+    width: 30px;
+    height: 20px;
+}
+body {
+    background: hsl(273, 75%, 66%);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+#content {
+    width: 740px;
+}
+#card {
+    align-items: center;
+    background: #fff;
+    border-radius: 75px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 50px 250px 50px;
+    padding: 0 0 120px 0;
+}
+h1 {
+    font-size: 90px;
+    margin: 40px;
+    text-align: center;
+}
+h2 {
+    font-size: 36px;
+}
+#image {
+    width: 600px;
+    height: 600px;
+}
