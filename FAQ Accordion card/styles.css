@@ -1,15 +1,30 @@
 .accordion {
-    align-items: center;
     border-bottom: solid hsl(240, 5%, 91%) 3px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
     padding: 20px 0;
+}
+.accordion-hidden {
+    display: none;
+}
+.accordion-hidden.reveal-btn {
+    display: block;
 }
 .accordion img {
     width: 30px;
     height: 20px;
 }
+.accordion-top {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.arrow {
+    background-color: unset;
+    border: none;
+    padding: 0;
+} 
 body {
     background: hsl(273, 75%, 66%);
     font-family: 'Kumbh Sans', sans-serif;
@@ -32,9 +47,13 @@ h1 {
     text-align: center;
 }
 h2 {
+    color: rgb(115, 115, 115);
     font-size: 36px;
 }
 #image {
     width: 600px;
     height: 600px;
+}
+p {
+    color: rgb(115, 115, 115);
 }
